@@ -43,6 +43,8 @@ dependencies {
     // Reemplaza las líneas de 'libs...' por las versiones explícitas:
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.activity:activity-compose:1.9.3")
+    // Librería moderna para cargar imágenes (URIs) en Compose
+    implementation("io.coil-kt:coil-compose:2.6.0")
 
     // Deja el resto igual
     implementation(libs.androidx.lifecycle.runtime.ktx)
